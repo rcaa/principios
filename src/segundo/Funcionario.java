@@ -9,4 +9,9 @@ public class Funcionario {
 	public Date getDataContratacao() {
 		return dataContratacao;
 	}
+
+	public String getDataContratacaoToString() {
+		String dataString = this.dataContratacao.toString();
+		return dataString;
+	}
 }
