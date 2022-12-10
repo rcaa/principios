@@ -1,6 +1,6 @@
 package quinto;
 
-public class Automovel {
+public class Automovel implements Transporte {
 
 	private String placa;
 	private String modelo;
