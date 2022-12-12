@@ -12,6 +12,10 @@ public class Shopping {
 	}
 
 	public List<Loja> getLojas() {
-		return lojas;
+		return new ArrayList<Loja>(lojas);
+	}
+
+	public void addLoja(Loja loja) {
+		lojas.add(loja);
 	}
 }
