@@ -5,8 +5,7 @@ import java.util.Date;
 public class Segundo {
 
 	public void imprimeDataContratacao(Funcionario func) {
-		Date data = func.getDataContratacao();
-		String msg = data.toString();
+		String msg = func.getDataContratacaoFormatada();
 		System.out.println(msg);
 	}
 }
