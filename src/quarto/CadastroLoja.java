@@ -1,6 +1,6 @@
 package quarto;
 
-public class CadastroLoja {
+public class Main {
 
 	public static void main(String[] args) {
 		Loja loja = new Loja();
