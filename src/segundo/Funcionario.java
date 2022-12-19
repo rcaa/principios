@@ -1,12 +1,5 @@
-package segundo;
+package segundo;{public Date getDataContratacao(){return dataContratacao;}
 
-import java.util.Date;
+public String getDataContratacaoFormatada(){Date data=this.getDataContratacao();return data.toString();
 
-public class Funcionario {
-
-	private Date dataContratacao;
-
-	public Date getDataContratacao() {
-		return dataContratacao;
-	}
-}
+}}
